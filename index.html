@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Section with Cover Photo -->
+      <div class="header">
+        <img src="./imag/cover.png" alt="Cover Photo" class="cover-photo" />
+        <button class="change-cover-btn">📷 Change Cover Photo</button>
+        <div class="profile-section">
+          <img src="./imag/pro.jpg" alt="Profile Photo" class="profile-photo" />
+          <div class="profile-details">
+            <h1 class="profile-name">Binda Shrestha</h1>
+            <div class="followers-following">
+              <span>100 Followers</span>
+              <span>10 Following</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="nav-tabs">
+        <button class="tab">Posts</button>
+        <button class="tab">Friends</button>
+        <button class="tab">Photos</button>
+        <button class="edit-profile-btn">✏️ Edit Profile</button>
+      </div>
+
+      <!-- Main Content Section -->
+      <div class="main-content">
+        <!-- Post Input -->
+        <div class="post-input">
+          <img src="./imag/pro.jpg" alt="Profile" class="small-profile-photo" />
+          <input
+            type="text"
+            placeholder="What's on your mind?"
+            class="post-textbox"
+          />
+        </div>
+
+        <!-- Post Section -->
+        <div class="post">
+          <div class="post-header">
+            <img src="./imag/pro.jpg" alt="Profile" class="small-profile-photo" />
+            <div class="post-user-info">
+              <h2>Binda Shrestha</h2>
+              <p>3d</p>
+            </div>
+          </div>
+          <p class="post-text">Happy Dashain everyone.</p>
+          <img src="./imag/dashain.jpg" alt="Post Image" class="post-image" />
+        </div>
+
+        <!-- Post Actions Section (New Tab) -->
+        <div class="post-actions">
+          <button class="like-btn">
+            <span class="icon"><img src="./imag/heart.png" width="30px" height="30px"></span> <!-- White Heart -->
+            
+          </button>
+          <button class="comment-btn">
+           
+            <span class="text">Comments</span>
+          </button>
+        </div>
+        <div class="post-extras">
+          <button class="like-btn">
+            <img src="./imag/love.png" width="40px" height="40px">
+            React
+          </button>
+          <div class="comment-section">
+            <img src="./imag/message.png" width="30px" height="30px">
+            <span class="comment-text">Comment</span>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
