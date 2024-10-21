@@ -132,7 +132,7 @@ p {
         flex-direction: column;
     }
 
-    .left-sidebar, .right-sidebar {
+    .left-sidebar, .right-sidebar,.main-feed {
         display: none;
     }
 
@@ -146,7 +146,7 @@ p {
         flex-direction: column;
     }
 
-    .left-sidebar, .right-sidebar {
+    .left-sidebar, .right-sidebar,.main-feed {
         display: none;
     }
 
